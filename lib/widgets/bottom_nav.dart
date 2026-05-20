@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../services/storage_service.dart';
-import '../theme.dart';
 
 class BottomNav extends StatelessWidget {
   final int currentIndex;

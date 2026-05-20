@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import '../data/books_data.dart';
 import '../widgets/book_card.dart';
 import '../widgets/bottom_nav.dart';
-import '../widgets/rating_widget.dart';
 import '../models/book.dart';
 import '../theme.dart';
 
@@ -100,7 +98,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
               child: GridView.builder(
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.65,
+                  childAspectRatio: 0.5,
                   crossAxisSpacing: 12,
                   mainAxisSpacing: 12,
                 ),

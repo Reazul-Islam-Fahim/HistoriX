@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           SliverToBoxAdapter(
             child: SizedBox(
-              height: 280,
+              height: 350,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -155,7 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
             sliver: SliverGrid(
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
-                childAspectRatio: 0.65,
+                childAspectRatio: 0.5,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
               ),
