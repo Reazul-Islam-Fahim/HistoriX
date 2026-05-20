@@ -57,9 +57,11 @@ dependencies:
   go_router: ^17.2.3
   shared_preferences: ^2.5.5
   provider: ^6.1.5+1
+  ```
 
 ## 4. Code Structure and Key Files
-ib/
+```
+lib/
 ├── main.dart # App entry, GoRouter config, Provider setup
 ├── theme.dart # Custom colour palette and typography
 ├── models/
@@ -86,6 +88,7 @@ ib/
 ├── image_with_fallback.dart # Network image with error placeholder
 ├── custom_button.dart # Styled button with variants
 └── custom_input.dart # Form field with show/hide password
+```
 
 
 ## 5. User Authentication & Role Management
